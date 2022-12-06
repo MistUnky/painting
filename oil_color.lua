@@ -4,8 +4,8 @@
 local S = painting.translator
 
 local color_vessel = "vessels:drinking_glass"
-local oil_bottle = "farming:hemp_oil"
-local empty_bottle = "vessels:glass_bottle"
+local oil_bottle = "group:leaves"
+local empty_bottle = ""
 local feather = nil
 local feather_img = nil
 

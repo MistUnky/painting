@@ -252,7 +252,7 @@ minetest.register_entity("painting:paintent", {
 		draw_input(self, def._painting_brush, x,y, puncher:get_player_control().sneak)
 		
 		if def._painting_brush.wear then
-			wielded:add_wear(def._painting_brush.wear)
+			--wielded:add_wear(def._painting_brush.wear)
 			if wielded:get_count()==0 then
 				if def._painting_brush.break_stack then
 					wielded = ItemStack(def._painting_brush.break_stack)
