@@ -75,6 +75,7 @@ minetest.register_craft({
 		{ items.canvas_source, items.canvas_source, '' },
 	}})
 
+--[[
 minetest.register_craft({
 	output = 'painting:canvas_64 1',
 	recipe = {
@@ -83,3 +84,4 @@ minetest.register_craft({
 		{ items.canvas_source, items.canvas_source, items.canvas_source },
 	}})
 
+--]]
